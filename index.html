@@ -1,1 +1,99 @@
-welcome
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Navigation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            z-index: 1000;
+            padding: 10px 0;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #home {
+            background-color: #f4f4f4;
+        }
+        #about {
+            background-color: #eaeaea;
+        }
+        #how-to-buy {
+            background-color: #dcdcdc;
+        }
+        #bridge {
+            background-color: #cfcfcf;
+        }
+        #tokennomics {
+            background-color: #bfbfbf;
+        }
+        #roadmap {
+            background-color: #afafaf;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-to-buy">How to Buy</a></li>
+            <li><a href="#bridge">Bridge</a></li>
+            <li><a href="#tokennomics">Tokennomics</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Home</h1>
+        <p>Welcome to our website!</p>
+    </section>
+    <section id="about">
+        <h1>About</h1>
+        <p>Learn more about us.</p>
+    </section>
+    <section id="how-to-buy">
+        <h1>How to Buy</h1>
+        <p>Steps to purchase our product.</p>
+    </section>
+    <section id="bridge">
+        <h1>Bridge</h1>
+        <p>Information about our bridge technology.</p>
+    </section>
+    <section id="tokennomics">
+        <h1>Tokennomics</h1>
+        <p>Details about our token distribution.</p>
+    </section>
+    <section id="roadmap">
+        <h1>Roadmap</h1>
+        <p>Our future plans and milestones.</p>
+    </section>
+</body>
+</html>
